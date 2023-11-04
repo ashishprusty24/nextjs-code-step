@@ -26,6 +26,7 @@ const Login = () => {
       <button onClick={()=>router.push("/login/loginstudent")} >Go to the login student</button>
       <br></br>
       <br></br>
+    
       <button onClick={()=>navigate("/login/loginteacher")} >Go to the login teacher</button>
     </div>
   );
