@@ -13,21 +13,8 @@ export default function Home() {
   };
   return (
     <>
-      <Link href="/login">Go to login page</Link>
-      <br></br>
-      <br></br>
-      <Link href="/about">Go to about page</Link>
-      <br></br>
-      <br></br>
-      {/* one way of use Router */}
-      <button onClick={() => router.push("/about")}>About</button>
-      <br></br>
-      <br></br>
-      {/* another way of use router */}
-      <button onClick={() => naviagte("/about")}>About</button>
-      <br></br>
-      <br></br>
-      <button onClick={() => naviagte("/login")}>Login</button>
+      <Link href="/productlist">Go to productlist</Link>
+      <Link href="/productlistserver">Go to productlistserver</Link>
     </>
   );
 }
