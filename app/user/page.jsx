@@ -1,10 +1,18 @@
 import React from 'react'
-// import custom from "../custom.module.css"
-import custom from "@/style/user.module.css"
-const User = () => {
+
+const Metapage = () => {
   return (
-    <div className={custom.main} >User</div>
+    <div>
+        <h1>user Metapage</h1>
+    </div>
   )
 }
 
-export default User
+export default Metapage
+
+export function generateMetadata({params}){
+    return {
+        title:"user page title",
+        description: "user page description"
+    }
+}
